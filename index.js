@@ -6,7 +6,7 @@ document.querySelector('button').addEventListener('click', () => {
 
 setTimeout(() => {
     if(counter > 5) {
-        alert('You won!');
+        alert(`You won! Your click count was ${counter} clicks!`);
     }else {
         alert('Sorry, you lost!');
     }
