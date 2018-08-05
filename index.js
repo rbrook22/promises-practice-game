@@ -22,3 +22,6 @@ startGame()
     .catch(() => alert('You lost!'));
 
     // Testing
+
+    // Testing 2
+    
