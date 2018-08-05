@@ -20,3 +20,5 @@ function startGame() {
 startGame()
     .then(() => alert('You win!'))
     .catch(() => alert('You lost!'));
+
+    // Testing
