@@ -1,1 +1,5 @@
-console.log('game is starting');
+let counter = 0;
+
+document.querySelector('button').addEventListener('click', () => {
+    ++counter;
+});
